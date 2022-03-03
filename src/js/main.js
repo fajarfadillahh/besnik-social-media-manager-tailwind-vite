@@ -1,9 +1,5 @@
 import "../css/index.css";
 
-// ===== Repo SwiperJS =====
-import Swiper from "swiper";
-import "swiper/css";
-
 // ===== SHOW MENU =====
 function showMenu(menuid, toggleid) {
   const menu = document.getElementById(menuid);
@@ -16,3 +12,20 @@ function showMenu(menuid, toggleid) {
   }
 }
 showMenu("header-menu", "header-toggle");
+
+// ===== TESTIMONIAL SWIPER =====
+let swiper = new Swiper(".testimonial-container", {
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: true,
+  spaceBetween: 32,
+  grabCursor: true,
+  autoplay: {
+    duration: 2000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

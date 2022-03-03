@@ -50,3 +50,17 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-110;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.swiper-slide-active {
+  @apply border-white bg-white shadow-[0_10px_20px_rgba(0,0,0,0.1)];
+}
+.swiper-pagination {
+  position: initial;
+}
+.swiper-pagination-bullet {
+  @apply w-3 h-3 bg-[rgba(0,0,0,0.1)] opacity-100;
+}
+.swiper-pagination-bullet-active {
+  @apply w-8 h-3 rounded-3xl bg-purple;
+}
