@@ -21,7 +21,7 @@
 
   /* Button Class */
   .button {
-    @apply flex justify-center py-4 px-8 text-[15px] font-semibold rounded-[10px] transition-all duration-500;
+    @apply flex justify-center py-4 px-8 text-[15px] font-semibold rounded-[15px] transition-all duration-500;
   }
   .button-fill {
     @apply bg-purple text-white hover:bg-[#412bce];
@@ -29,4 +29,24 @@
   .button-border {
     @apply ring-2 ring-purple text-purple hover:bg-purple hover:text-white;
   }
+}
+
+/* ===== HEADER SECTION ===== */
+@media screen and (max-width: 767px) {
+  .header__menu {
+    @apply fixed w-[80%] top-28 left-0 right-0 mx-auto text-center p-8 bg-white rounded-[2rem] shadow-[0_0_12px_rgba(0,0,0,0.1)] transition-all duration-500 opacity-0 scale-y-0 origin-[0%_0%];
+  }
+}
+.header__link {
+  @apply text-[15px] text-grey font-medium;
+}
+.header__link.active-link {
+  @apply relative text-purple font-bold;
+}
+.header__link.active-link::before {
+  @apply absolute content-[""] top-6 left-0 right-0 mx-auto w-5 h-1 bg-purple rounded-[5rem];
+}
+/* Show Menu */
+.header__menu.show-menu {
+  @apply opacity-100 scale-y-110;
 }
