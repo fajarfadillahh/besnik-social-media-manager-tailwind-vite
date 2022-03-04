@@ -77,3 +77,11 @@
 .scrollup.scroll-action {
   @apply opacity-100;
 }
+
+/* ===== SCROLL BAR ===== */
+::-webkit-scrollbar {
+  @apply w-[.6rem] bg-[#f5f5f5];
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-[rgba(0,0,0,0.1)]  hover:bg-[rgba(0,0,0,0.3)];
+}
