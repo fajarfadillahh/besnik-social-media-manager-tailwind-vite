@@ -75,12 +75,14 @@
 
     <main class="overflow-hidden">
       <!-- ===== HOME SECTION ===== -->
-      <section class="home pt-32 pb-24" id="home">
-        <div class="home__container container grid gap-12">
+      <section class="home pt-32 pb-24 lg:pt-40" id="home">
+        <div
+          class="home__container container grid gap-12 lg:grid-cols-2 lg:items-center"
+        >
           <div
-            class="home__content grid gap-8 xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
+            class="home__content grid gap-8 xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px] lg:w-auto"
           >
-            <div class="home__data text-center">
+            <div class="home__data text-center lg:text-left">
               <span class="home__subtitle section-subtitle"
                 >Social is your superpower</span
               >
@@ -89,7 +91,7 @@
               >
                 Learn secret of <br />Social Media
               </h1>
-              <p class="home__text text-[15px] text-grey leading-text mb-6">
+              <p class="home__text text-[15px] text-grey leading-text mb-6 lg:">
                 Discover what's possible when you unite your social campaigns on
                 one platform. Schedule publish content.
               </p>
@@ -106,14 +108,14 @@
               </div>
             </div>
 
-            <div class="home__sponsored grid gap-4 text-center">
+            <div class="home__sponsored grid gap-4 text-center lg:text-left">
               <h3
                 class="home__sponsored-title text-[20px] text-black font-bold"
               >
                 Trusted by :
               </h3>
               <div
-                class="home__sponsored-wrapper inline-flex items-center justify-self-center gap-4"
+                class="home__sponsored-wrapper inline-flex items-center justify-self-center gap-4 lg:justify-self-start"
               >
                 <img
                   src="./src/img/sponsored-icon-(1).png"
@@ -141,7 +143,7 @@
 
       <!-- ===== FEATURE SECTION ===== -->
       <section class="feature section">
-        <div class="feature__container container grid gap-12">
+        <div class="feature__container container grid gap-12 lg:gap-20">
           <div
             class="feature__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
           >
@@ -152,13 +154,13 @@
           </div>
 
           <div
-            class="feature__group grid gap-8 grid-cols-[.7fr] justify-center xs:grid-cols-[.6fr] sm:grid-cols-[.5fr] md:grid-cols-2"
+            class="feature__group grid gap-8 grid-cols-[.7fr] justify-center xs:grid-cols-[.6fr] sm:grid-cols-[.5fr] md:grid-cols-2 lg:grid-cols-3"
           >
             <div class="feature__item md:w-[280px] md:mx-auto">
               <img
                 src="./src/img/feature-icon-(1).png"
                 alt=""
-                class="feature__item-img"
+                class="feature__item-img lg:h-[200px]"
               />
               <div>
                 <h3
@@ -178,7 +180,7 @@
               <img
                 src="./src/img/feature-icon-(2).png"
                 alt=""
-                class="feature__item-img"
+                class="feature__item-img lg:h-[200px]"
               />
               <div>
                 <h3
@@ -199,7 +201,7 @@
               <img
                 src="./src/img/feature-icon-(3).png"
                 alt=""
-                class="feature__item-img"
+                class="feature__item-img lg:h-[200px]"
               />
               <div>
                 <h3
@@ -222,14 +224,18 @@
 
       <!-- ===== ABOUT SECTION ===== -->
       <section class="about section">
-        <div class="about__container container grid gap-12">
+        <div
+          class="about__container container grid gap-12 lg:grid-cols-2 lg:items-center"
+        >
           <div
-            class="about__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
+            class="about__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px] lg:w-auto lg:text-left"
           >
             <span class="about__subtitle section-subtitle"
               >Understand Audience</span
             >
-            <h1 class="about__title section-title leading-title mb-4">
+            <h1
+              class="about__title section-title leading-title mb-4 lg:text-[48px]"
+            >
               Social Media Analytics <br />Tools and Insights
             </h1>
             <p class="about__text text-[15px] text-grey leading-text mb-6">
@@ -261,7 +267,7 @@
 
         <div class="testimonial__container container overflow-hidden">
           <div class="swiper testimonial-container">
-            <div class="swiper-wrapper my-12">
+            <div class="swiper-wrapper my-12 lg:mt-20 lg:mb-12">
               <div
                 class="testimonial__item swiper-slide grid gap-6 w-[300px] py-12 px-8 border-2 border-solid border-[rgba(0,0,0,0.1)] rounded-[20px]"
               >
