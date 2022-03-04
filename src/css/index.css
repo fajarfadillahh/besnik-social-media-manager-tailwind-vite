@@ -16,7 +16,7 @@
     @apply block text-[20px] text-purple font-semibold mb-[10px];
   }
   .section-title {
-    @apply text-[28px] text-black font-bold sm:text-[32px];
+    @apply text-[28px] text-black font-bold sm:text-[32px] xl:text-[36px];
   }
 
   /* Button Class */
@@ -39,7 +39,7 @@
 }
 /* Media Query Header Section - 767px */
 .header__menu {
-  @apply md:flex md:items-center md:gap-6;
+  @apply md:flex md:items-center md:gap-6 xl:gap-8;
 }
 .header__link {
   @apply text-[15px] text-grey font-medium;
