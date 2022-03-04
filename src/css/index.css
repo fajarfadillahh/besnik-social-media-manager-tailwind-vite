@@ -50,6 +50,10 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-110;
 }
+/* Sticky Header */
+.header.sticky-header {
+  @apply shadow-[2px_0_20px_rgba(0,0,0,0.1)];
+}
 
 /* ===== TESTIMONIAL SECTION ===== */
 .swiper-slide-active {
