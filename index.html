@@ -40,7 +40,7 @@
         >
 
         <div class="header__menu" id="header-menu">
-          <ul class="header__list flex flex-col gap-6">
+          <ul class="header__list flex flex-col gap-6 md:flex-row">
             <li class="header__item">
               <a href="#" class="header__link active-link">Home</a>
             </li>
@@ -58,13 +58,13 @@
             </li>
           </ul>
 
-          <a href="#" class="header__button button button-fill mt-6"
+          <a href="#" class="header__button button button-fill mt-6 md:mt-0"
             >Create Account</a
           >
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer"
+          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer md:hidden"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
@@ -78,14 +78,14 @@
       <section class="home pt-32 pb-24" id="home">
         <div class="home__container container grid gap-12">
           <div
-            class="home__content grid gap-8 xs:w-[380px] xs:mx-auto sm:w-[400px]"
+            class="home__content grid gap-8 xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
           >
             <div class="home__data text-center">
               <span class="home__subtitle section-subtitle"
                 >Social is your superpower</span
               >
               <h1
-                class="home__title text-[42px] text-black font-bold leading-title mb-4 sm:text-[48px]"
+                class="home__title text-[42px] text-black font-bold leading-title mb-4 sm:text-[48px] md:text-[56px]"
               >
                 Learn secret of <br />Social Media
               </h1>
@@ -143,7 +143,7 @@
       <section class="feature section">
         <div class="feature__container container grid gap-12">
           <div
-            class="feature__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px]"
+            class="feature__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
           >
             <span class="feature__subtitle section-subtitle">Key Features</span>
             <h1 class="feature__title section-title">
@@ -152,9 +152,9 @@
           </div>
 
           <div
-            class="feature__group grid gap-8 grid-cols-[.7fr] justify-center xs:grid-cols-[.6fr] sm:grid-cols-[.5fr]"
+            class="feature__group grid gap-8 grid-cols-[.7fr] justify-center xs:grid-cols-[.6fr] sm:grid-cols-[.5fr] md:grid-cols-2"
           >
-            <div class="feature__item">
+            <div class="feature__item md:w-[280px] md:mx-auto">
               <img
                 src="./src/img/feature-icon-(1).png"
                 alt=""
@@ -174,7 +174,7 @@
               </div>
             </div>
 
-            <div class="feature__item">
+            <div class="feature__item md:w-[280px] md:mx-auto">
               <img
                 src="./src/img/feature-icon-(2).png"
                 alt=""
@@ -195,7 +195,7 @@
               </div>
             </div>
 
-            <div class="feature__item">
+            <div class="feature__item md:w-[280px] md:mx-auto">
               <img
                 src="./src/img/feature-icon-(3).png"
                 alt=""
@@ -224,7 +224,7 @@
       <section class="about section">
         <div class="about__container container grid gap-12">
           <div
-            class="about__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px]"
+            class="about__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
           >
             <span class="about__subtitle section-subtitle"
               >Understand Audience</span
@@ -249,7 +249,7 @@
       <!-- ===== TESTIMONIAL SECTION ===== -->
       <section class="testimonial section">
         <div
-          class="testimonial__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px]"
+          class="testimonial__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
         >
           <span class="testimonial__subtitle section-subtitle"
             >Testimonials</span
@@ -454,7 +454,7 @@
       <section class="newsletter section">
         <div class="newsletter__container container grid gap-8">
           <div
-            class="newsletter__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px]"
+            class="newsletter__data text-center xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px]"
           >
             <span class="newsletter__subtitle section-subtitle"
               >Get More Information</span
@@ -470,12 +470,12 @@
 
           <form
             action=""
-            class="newsletter__direction flex flex-col gap-4 overflow-hidden xs:w-[380px] xs:mx-auto sm:w-[400px]"
+            class="newsletter__direction flex flex-col gap-4 overflow-hidden xs:w-[380px] xs:mx-auto sm:w-[400px] md:w-[460px] md:flex-row md:items-center"
           >
             <input
               type="text"
               placeholder="Enter your email address"
-              class="newsletter__input w-full py-4 px-8 border-2 border-solid border-[#c9c8d5] rounded-[15px] text-center text-[15px] text-black font-semibold tracking-[-1px] placeholder:text-[15px] placeholder:font-medium placeholder:text-[#a5a3b8]"
+              class="newsletter__input w-full py-4 px-8 border-2 border-solid border-[#c9c8d5] rounded-[15px] text-center text-[15px] text-black font-semibold tracking-[-1px] placeholder:text-[15px] placeholder:font-medium placeholder:text-[#a5a3b8] md:text-left"
             />
             <button class="newsletter__button button button-fill">
               Subscribe
