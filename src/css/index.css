@@ -16,7 +16,7 @@
     @apply block text-[20px] text-purple font-semibold mb-[10px];
   }
   .section-title {
-    @apply text-[28px] text-black font-bold;
+    @apply text-[28px] text-black font-bold sm:text-[32px];
   }
 
   /* Button Class */
