@@ -27,7 +27,7 @@
     @apply bg-purple text-white hover:bg-[#412bce];
   }
   .button-border {
-    @apply ring-2 ring-purple text-purple hover:bg-purple hover:text-white;
+    @apply border-2 border-solid border-purple text-purple hover:bg-purple hover:text-white;
   }
 }
 
