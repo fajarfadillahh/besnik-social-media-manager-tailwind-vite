@@ -68,3 +68,8 @@
 .swiper-pagination-bullet-active {
   @apply w-8 h-3 rounded-3xl bg-purple;
 }
+
+/* ===== SCROLLUP ACTION ===== */
+.scrollup.scroll-action {
+  @apply opacity-100;
+}
